@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #000;
+}
+
+#action{
+    float: left;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+
+    animation: typing 2s steps(900),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width:0%}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+
+}
+
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #f36310dd;
+    cursor: pointer;
+
+}
+
+li {
+    font-size: 30px;
+    padding: 20px;
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#fff;
+    padding: 14px;
+    margin-left: 150px;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+
+li:hover {
+    background-color: rgba(122, 51, 9, 0.867);
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    text-shadow: #000;
+    text-shadow: 6px 2px 10px #c45311e1;
+}
+
+h2 {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+
+input{
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+select{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.hombre {
+    color: #fff;
+}
+
+.mujer {
+    color: #fff;
+}
+
+.formulary {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 15px;
+    color: #fff;
+    line-height: 40px;
+    text-decoration:double;
+}
+
+footer {
+    background-color: #f36310dd;
+    padding: 30px;
+    margin-top: 220px;
+    margin-bottom: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+button {
+    background-color:#f36310dd;
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7a3309dd;
+}
+
+
+option{
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+/* iframe {
+    margin-top: 100px;
+    padding-left: 700px;
+} */
+
+.parrafoH {
+    background: #662906dd ;
+    margin: 20px;
+    padding: 15px;
+    font-size: 30px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align:inherit
+}
+
+#pelota {
+    display: block;
+    margin-top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.horarios {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.serviciosUno {
+    height:110px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    border: 5px solid #f36310dd;
+    border-radius: 4px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.musculacion {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 300px;
+
+
+}
+
+.serviciosDos {
+    height:110px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    border: 5px solid #f36310dd;
+    border-radius: 4px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;
+    margin-bottom: 200px;
+}
+
+.lesiones {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 200px;
+
+}
+
+.serviciosTres{
+    height:110px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    border: 5px solid #f36310dd;
+    border-radius: 4px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;
+    margin-bottom: 100px;
+
+}
+
+.nutricion{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 300px;
+
+}
+
+.martesJueves {
+    height:140px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    border: 5px solid #f36310dd;
+    border-radius: 4px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.lunesViernes {
+    height:140px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    border: 5px solid #f36310dd;
+    border-radius: 4px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;
+    margin-bottom: 350px;
+}
+
+/* entrenamientos */
+
+.entrenamientoUno{
+    color: #fff;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 2px solid #f36310dd;
+    grid-area: explosividad;
+    
+}
+
+.entrenamientoDos{
+    color: #fff;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 2px solid #f36310dd;
+    grid-area: fuerza;
+}
+
+.entrenamientoTres{
+    color: #fff;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 2px solid #f36310dd;
+    grid-area: reaccion;
+}
+
+.entrenamientoCuatro{
+    color: #fff;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border: 2px solid #f36310dd;
+    grid-area: rehabilitacion;
+}
+
+#grilla{
+    display: grid;
+    margin-top: 10px;
+    grid-template-areas: 
+    "explosividad" "fuerza"  
+    "reaccion" "rehabilitacion"; 
+    grid-template-columns: 33.3;
+    grid-template-rows: 25% 25% ;
+    gap: 10px;
+ 
+}
