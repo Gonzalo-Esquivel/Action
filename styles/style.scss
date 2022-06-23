@@ -1,8 +1,7 @@
-*{
-    padding: 0;
-    margin: 0;
-    
-}
+@import "generales";
+@import "footer";
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital,wght@1,300&display=swap');
 
@@ -48,31 +47,32 @@ nav{
     text-align: center;
     list-style-type: none;
     overflow: hidden;
-    position: relative;
+    position:relative;
     margin-top: 0;
     width: 100%;
     background-color: #06694b;
-    cursor: pointer;
+    /* cursor: pointer; */
 
 }
 
 
 li {
     font-size: 30px;
-    padding: 20px;
-    float: left;
-    text-align: center;
+    padding: 10px;
+    justify-content: flex-end;
+    display:inline-flex;
     list-style-type: none;
 }
 
 li a {
-    display: block;
+    display: flex;
     text-align: center;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:#fff;
     padding: 10px;
     width: 100%;
+    cursor: pointer;
 
 }
 
@@ -313,7 +313,7 @@ option{
 footer {
     display: fixed;
     background-color: #06694b;
-    padding:50px;
+    padding:20px;
     margin-top: 220px;
     margin-bottom: 0px;
     color: #fff;
