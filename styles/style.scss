@@ -1,334 +1,337 @@
-@import "generales";
-@import "footer";
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #06694b;
+  margin-top: 220px;
+  margin-bottom: 0px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
 
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Sans:ital,wght@1,300&display=swap');
-
-body{
-    background-color: #000000f1;
+body {
+  background-color: #000000f1;
 }
 
 .action {
-	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            text-shadow: 4px;
+  -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  text-shadow: 4px;
 }
 
- @-webkit-keyframes tracking-in-contract {
-    0% {
-      letter-spacing: 1em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      letter-spacing: normal;
-      opacity: 1;
-    }
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
   }
-  @keyframes tracking-in-contract {
-    0% {
-      letter-spacing: 1em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      letter-spacing: normal;
-      opacity: 1;
-    }
+  40% {
+    opacity: 0.6;
   }
-  
-
-nav{
-    text-align: center;
-    list-style-type: none;
-    overflow: hidden;
-    position:relative;
-    margin-top: 0;
-    width: 100%;
-    background-color: #06694b;
-    /* cursor: pointer; */
-
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }
 
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+nav {
+  text-align: center;
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
+  margin-top: 0;
+  width: 100%;
+  background-color: #06694b;
+  /* cursor: pointer; */
+}
 
 li {
-    font-size: 30px;
-    padding: 10px;
-    justify-content: flex-end;
-    display:inline-flex;
-    list-style-type: none;
+  font-size: 30px;
+  padding: 10px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
 }
 
 li a {
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#fff;
-    padding: 10px;
-    width: 100%;
-    cursor: pointer;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
 }
 
-
 li:hover {
-    background-color: rgba(138, 248, 215, 0.5);
-    
+  background-color: rgba(44, 224, 170, 0.5);
 }
 
 h1 {
-    font-size: 100px;
-    color: #fff;
-    text-align: center;
-    text-shadow: #000;
-    text-shadow: 6px 2px 10px #06694b;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: #000;
+  text-shadow: 6px 2px 10px #06694b;
 }
 
 h2 {
-    color: #fff;
+  color: #fff;
 }
 
 label {
-    color: #fff;
+  color: #fff;
 }
 
-
-input{
-    font-size: x-large;
-    cursor: pointer;
+input {
+  font-size: x-large;
+  /* cursor: pointer; */
 }
 
-
-select{
-    font-size: 30px;
-    cursor: pointer;
+select {
+  font-size: 30px;
+  cursor: pointer;
 }
-
 
 .hombre {
-    color: #fff;
+  color: #fff;
 }
 
 .mujer {
-    color: #fff;
+  color: #fff;
 }
 
 .formulary {
-    font-family: 'Josefin Sans', sans-serif;
-    margin-left: 20px;
-    font-size: 30px;
-    margin-top: 15px;
-    color: #fff;
-    line-height: 40px;
-    text-decoration:double;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 15px;
+  color: #fff;
+  line-height: 40px;
+  -webkit-text-decoration: double;
+          text-decoration: double;
 }
-
-
 
 button {
-    background-color:#06694b;
-    color: #fff;
-    padding: 10px;
-    font-size: 30px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: rgba(138, 248, 215, 0.5);
+  background-color: #06694b;
+  color: #fff;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-
-option{
-    font-size: 20px;
-    padding: 30px;
+button:hover {
+  background-color: rgba(138, 248, 215, 0.5);
 }
 
+option {
+  font-size: 20px;
+  padding: 30px;
+}
 
 /* iframe {
     margin-top: 100px;
     padding-left: 700px;
 } */
-
 .parrafoH {
-    margin: 20px;
-    padding: 15px;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
-    text-align:justify;
-
+  margin: 20px;
+  padding: 15px;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  text-align: center;
 }
+
 .video {
-    text-align: center;
+  text-align: center;
 }
 
 .slogan {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #pelota {
-    display: block;
-    margin-top: 220px;
-    margin-left: auto;
-    margin-right: auto;
-
+  display: block;
+  margin-top: 220px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .horarios {
-    margin-top: 50px;
-    color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  color: #fff;
+  margin-bottom: 0;
+
+  
 }
 
 .serviciosUno {
-    height:110px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 20px;
-    border: 5px solid #06694b;
-    border-radius: 4px;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding: 10px;
-    margin-bottom: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  border: 7px solid #06694b;
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding: 5px;
+
 }
 
 .musculacion {
-    color: #fff;
-    margin-top: 20px;
-    font-size: 30px;
-    margin-bottom: 300px;
-
-
+  color: #fff;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 .serviciosDos {
-    height:110px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 20px;
-    border: 5px solid #06694b;
-    border-radius: 4px;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding: 10px;
-    margin-bottom: 200px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  border: 7px solid #06694b;
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding: 5px;
 }
 
 .lesiones {
-    color: #fff;
-    margin-top: 20px;
-    font-size: 30px;
-    margin-bottom: 200px;
-
+  color: #fff;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
-.serviciosTres{
-    height:110px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 20px;
-    border: 5px solid #06694b;
-    border-radius: 4px;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding: 10px;
-    margin-bottom: 100px;
-
+.serviciosTres {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  border: 7px solid #06694b;
+  border-radius: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  padding: 5px;
 }
 
-.nutricion{
-    color: #fff;
-    margin-top: 20px;
-    font-size: 30px;
-    margin-bottom: 300px;
-
-}
+.nutricion {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 30px;
+} 
 
 .martesJueves {
-    height:140px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 20px;
-    border: 5px solid #06694b;
-    border-radius: 4px;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding: 10px;
-    margin-bottom: 100px;
+
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  border-radius: 4px;
 }
 
 .lunesViernes {
-    height:140px;
-    font-family: 'Josefin Sans', sans-serif;
-    margin-top: 20px;
-    border: 5px solid #06694b;
-    border-radius: 4px;
-    margin-left: 600px;
-    margin-right: 600px;
-    padding: 10px;
-    margin-bottom: 350px;
+
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+  border-radius: 4px;
 }
 
 /* entrenamientos */
-
-.entrenamientoUno{
-    color: #fff;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    border: 2px solid #06694b;
-    grid-area: explosividad;
-    
+.entrenamientoUno {
+  color: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  border: 4px solid #06694b;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: explosividad;
 }
 
-.entrenamientoDos{
-    color: #fff;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    border: 2px solid #06694b;
-    grid-area: fuerza;
+.parrafoEntre{
+  font-size: 30px;
 }
 
-.entrenamientoTres{
-    color: #fff;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    border: 2px solid #06694b;
-    grid-area: reaccion;
+.entrenamientoDos {
+  color: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  border: 2px solid #06694b;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: fuerza;
 }
 
-.entrenamientoCuatro{
-    color: #fff;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    border: 2px solid #06694b;
-    grid-area: rehabilitacion;
+.entrenamientoTres {
+  color: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  border: 2px solid #06694b;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: reaccion;
 }
 
+.entrenamientoCuatro {
+  color: #fff;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  border: 2px solid #06694b;
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: rehabilitacion;
+}
+.textarea {
+
+  min-width: 500px;
+  min-height: 200px;
+}
 footer {
-    display: fixed;
-    background-color: #06694b;
-    padding:20px;
-    margin-top: 220px;
-    margin-bottom: 0px;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
+  display: fixed;
+  background-color: #06694b;
+  padding: 20px;
+  margin-top: 220px;
+  margin-bottom: 0px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
 }
 
-#grilla{
-    display: grid;
-    margin-top: 10px;
-    grid-template-areas: 
-    "explosividad" "fuerza"  
-    "reaccion" "rehabilitacion"; 
-    grid-template-columns: 33.3;
-    grid-template-rows: 25% 25% ;
-    gap: 10px;
- 
+#grilla {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10px;
+      grid-template-areas: "explosividad" "fuerza"  
+ "reaccion" "rehabilitacion";
+  -ms-grid-columns: 33.3;
+      grid-template-columns: 33.3;
+  -ms-grid-rows: 25% 25%;
+      grid-template-rows: 25% 25%;
+  gap: 10px;
 }
+/*# sourceMappingURL=style.css.map */
